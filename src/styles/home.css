@@ -1,0 +1,16 @@
+.home-container {
+	display: flex;
+	min-height: 100vh;
+}
+
+.home-photo {
+	flex: 2;
+}
+
+.home-photo img {
+	max-width: 100%;
+}
+
+.home-bio {
+	flex: 1;
+}
