@@ -3,14 +3,24 @@
 	min-height: 100vh;
 }
 
-.home-photo {
+.home-photo-container {
 	flex: 2;
 }
 
-.home-photo img {
-	max-width: 100%;
+.home-photo {
+	height: 100%;
+	background-color: #7A7A7A;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -200px;
+	background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgGBgYGBggGBggMCAcIDA4KCAgKDhANDQ4NDRARDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBCQgICQoJCwkJCw4LDQsOEQ4ODg4REQwMDAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIADwAKAMBIgACEQEDEQH/xAByAAACAgMBAQAAAAAAAAAAAAAABwMEAQIGBQgQAAIBAwIDBQcCBwEAAAAAAAECAwQREgAFEyEiBhQxMkIHI0FRUmKBcpIVU2FjgpOiwgEBAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AUEkFJgVhmxbMo5YEqqL1KfrOpBEtM0sb04leeNOFKeTQlxzPI/EfVq1BtiVtFTvDYVDnh4hgSFv7xmj87C3l+7WqiYM9HSkmaW1MirGTLPmQqIw54m5xS+go7cjS1kccYcSNmt7gJ4XVE8LMbH1akLbr3eWlREMMjktIiqztjzNp/M1/Vrp+0fYDf+x1HT7lu9Mr09Qyo7Uz8UU81rrHNYX4vwyX3f3655gXoe8ZApG4DRuWEkLsSAyBPMsnw0FSCqRUSnmgBSxJZuk5vyDIy+VcRo1FHK6KQrYubWYnkQCf+To0FpXeMypHI6eKZjqLKCCiqVNvMurdBWSbVu1HuQMTmmkjkmPkUlTk3MfX6pba89UEQJZepRdSRcG/zU49JB03PZF2Y2KspTvu5QCprVqJI6CGbnEhgC5yiJumSZS/Rl0xLoN+0W81dT2Prjt23Oyv3YV5MciPTxcTiRDiszvNMl+J3hemOPzNpXzQ1tNPxL+8vlFJxQZDHIMOcq/9enDX1TSQ09PUSSxqod/N/W/jf089KL2sdndq2hqfe9gj/h8lZM9FucVOvunJTjLJw+axnEMkix4q+gU0wRIWR0fioeGUZlXFl5ZWUZdJ9OjVionWplkqZKZJY2xxMYwsTZboy3GI+5dGgiqKYQzTRyBXSTqQIcbi+WOALMnmxXTm7CmaPsz2aSFZHadquVp47XRrvln+1V+7SYwJsr3dAPdqhCqWbzeI+Y6rabHs/wB3pW7NUFNuE8NNSbTWT00ssjhRGKxCaR5WazYPOWi6f1v0ZaBmxyh0XqLHwyJ5k/jXAe1ESP2arpLtHHT7rCtPIDzcvGY3ux9PPXbU1NVryIXFQSWUAKFA52cnDH+4X4eln7Qt0pt02dO4ViVNNXbzMkUyMShipYFQ5eAtxGbqYeRuMugWpnjxYhAZ06kjbI487mSLGyDL+Xo1GzRIrBS6qHAVGdWPLx5jxDdTKy6NBmSrnVmBijBJLIyi4IJ8V5/H1aglq6h4jC5CxMVYqBZWxuFDDwNsm1ZXge8yxvfpx+fxt+P/ADqebg92qM8cseXh48rWt0+bQeYa/cTTNRCqm7iCL0glk4P+rLC341sJpuEFilfC5yjJut2XAnH6sRjqTb+Bw6njY5XH7bG9v8tZ23HI8e2GPL9V+Xh8dBossiFVaNHTxK42uflkOofVo1fl4PE9x578/wBXq/OjQf/Z');
+	transition: all 2s;
 }
 
-.home-bio {
+.home-photo.large {
+	background-image: url('https://s3-us-west-2.amazonaws.com/jaworski-photos/home-me-1800.jpg');
+}
+
+.home-bio-container {
 	flex: 1;
 }
