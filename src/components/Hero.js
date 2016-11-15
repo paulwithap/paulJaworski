@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import ProgressiveImage from 'react-progressive-image';
+import avatarLarge from '../images/my-avatar-2-large.jpg';
+import avatarTiny from '../images/my-avatar-2-tiny.jpg';
 import '../styles/hero.css';
 
 const IntroText = () => {
@@ -32,6 +35,11 @@ const IntroDescriptionPartTwo = () => {
 const Hero = () => {
 	return (
 		<div className="hero">
+			<div className="hero-avatar">
+				<ProgressiveImage src={avatarLarge} placeholder={avatarTiny}>
+					{(src) => <img src={src} alt="my-avatar"/>}
+				</ProgressiveImage>
+			</div>
 			<ReactCSSTransitionGroup
 				transitionName="intro"
 				transitionAppear={true}

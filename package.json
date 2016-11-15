@@ -10,7 +10,8 @@
     "lazyimage": "^2.1.2",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-progressive-image": "^0.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
