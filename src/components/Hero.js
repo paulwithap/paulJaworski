@@ -62,7 +62,7 @@ const Hero = () => {
 					<a href="https://github.com/paulwithap" target="_blank" rel="noopener noreferrer">
 						<i className="fa fa-github" aria-hidden="true"></i>
 					</a>
-					<a href="mailto:hello@paauljaworski.com">
+					<a href="mailto:hello@pauljaworski.com?subject=Website+Inquiry">
 						<i className="fa fa-envelope-o" aria-hidden="true"></i>
 					</a>
 				</div>
