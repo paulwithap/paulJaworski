@@ -50,6 +50,14 @@ const Hero = () => {
 			>
 				<IntroDescriptionPartOne key={2} />
 				<IntroDescriptionPartTwo key={3} />
+				<div className="hero-footer">
+					<a href="https://github.com/paulwithap">
+						<i className="fa fa-github" aria-hidden="true"></i>
+					</a>
+					<a href="mailto:hello@paauljaworski.com">
+						<i className="fa fa-envelope-o" aria-hidden="true"></i>
+					</a>
+				</div>
 			</ReactCSSTransitionGroup>
 		</div>
 	);
